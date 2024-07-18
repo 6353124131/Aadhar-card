@@ -1,0 +1,94 @@
+
+body{
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.box{
+    height: 236px;
+    width: 710px;
+    /* background: red; */
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.leftbox{
+    height: 226px;
+    width: 49%;
+    /* background: chartreuse; */
+    margin-left: 5px;
+}
+.rightbox{
+    height: 226px;
+    width: 49%;
+    /* background: rgb(65,78,53); */
+    margin-left: 5px;
+}
+.header{
+    /* background: crimson; */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 35px;
+
+}
+.lion{
+    height: 35px;
+    margin: 2px 5px 5px 35px;
+}
+.gov{
+    height: 32px;
+    margin: 3px 0px 0px 26px;
+}
+.bodypart{
+    height: 165px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* background: cyan; */
+}
+.pic{
+    /* background: darkgray; */
+    height: 100%;
+    width: 100px;
+}
+.info{
+    /* background: rgb(211, 250, 14); */
+    height: 100%;
+    width: 170px;
+    font-size: 12px;
+}
+.qr{
+    /* background: rgb(130, 16, 141); */
+    height: 60px;
+    width: 60px;
+    margin: 50px 0px 0px 6px;
+}
+.footer{
+    /* background: darkkhaki; */
+    width: 100%;
+    height: 27px;
+    border-top: tomato 2px solid;
+
+}
+.photo{
+    height: 110px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.adhar{
+    font-size: 20px;
+    justify-content: center;
+    margin-left: 18px;
+    margin-top: 4px;
+    padding-top: 8px;}
+.para{
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    margin-left: 4px;
+    margin-top: -10px;
+    padding-top: 8px;}
